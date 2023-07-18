@@ -1,6 +1,5 @@
 import random
 import turtle as t
-from turtle import Screen
 
 mbappe_turtle = t.Turtle()
 t.colormode(255)
@@ -23,7 +22,7 @@ for _ in range(200):
     mbappe_turtle.forward(30)
     mbappe_turtle.setheading(random.choice(directions))
 
-screen = Screen()
+screen = t.Screen()
 screen.exitonclick()
 
 #Done and dusted. But some bug is there in the main.py file.
